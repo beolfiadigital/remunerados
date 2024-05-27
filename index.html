@@ -17,36 +17,45 @@
             text-align: center;
         }
         .container {
-            background: rgba(0, 0, 0, 0.7);
+            background: rgba(0, 0, 0, 0.8);
             padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+            max-width: 800px;
+            width: 90%;
         }
         h1 {
             font-size: 2.5em;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
+            animation: fadeInDown 1s;
         }
         p {
             font-size: 1.2em;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            animation: fadeIn 2s;
         }
         .buttons {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 15px;
+            gap: 20px;
         }
         .buttons a {
             text-decoration: none;
             background: #3498db;
             padding: 15px 30px;
-            border-radius: 5px;
+            border-radius: 10px;
             color: #fff;
-            font-size: 1em;
-            transition: background 0.3s;
+            font-size: 1.1em;
+            transition: background 0.3s, transform 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
         .buttons a:hover {
             background: #2980b9;
+            transform: translateY(-5px);
+        }
+        .buttons a:active {
+            transform: translateY(2px);
         }
         @media (max-width: 600px) {
             h1 {
@@ -57,7 +66,25 @@
             }
             .buttons a {
                 padding: 10px 20px;
-                font-size: 0.9em;
+                font-size: 1em;
+            }
+        }
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
             }
         }
     </style>
@@ -84,8 +111,9 @@
 <body>
     <div class="container">
         <h1 id="welcome-message">Bem-vindo ao Black Tch!</h1>
+        <p>Estamos felizes em tê-lo aqui. Aproveite nossas oportunidades!</p>
         <div class="buttons">
-            <a href="res.html">Links</a>
+            <a href="index.html">Página Inicial</a>
             <a href="https://mail.google.com">Gmail</a>
             <a href="https://docs.google.com/spreadsheets/">Planilhas</a>
             <a href="https://calendar.google.com">Calendário</a>
