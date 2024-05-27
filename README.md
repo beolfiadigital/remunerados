@@ -19,4 +19,24 @@ Esta página foi criada para ajudar nossos espectadores a encontrar rapidamente 
 - **JavaScript**: Para funcionalidades dinâmicas e detecção de localização.
 
 ## Estrutura do Projeto
+### DEMO
+- [Site 0](https://beolfiadigital.github.io/remunerados/)
 
+### Ferramentas de Organização
+- [Gmail](https://mail.google.com)
+- [Google Sheets](https://sheets.google.com)
+- [Google Calendar](https://calendar.google.com)
+
+## Sobre
+
+Esta página foi desenvolvida para fornecer aos nossos espectadores acesso rápido e fácil a recursos mencionados em nosso vídeo tutorial. Utilize os links acima para explorar as melhores plataformas de pesquisas remuneradas e as ferramentas de organização mais eficientes.
+
+## Contato
+
+Para mais informações ou dúvidas, entre em contato:
+- **Email**: [Hotmail](mailto:beolfia@hotmail.com)
+- **YouTube**: [Nosso Canal](https://www.youtube.com/@black_tch)
+
+---
+
+Obrigado por visitar o Black Tch! Esperamos que nosso conteúdo ajude você a encontrar boas oportunidades e a se organizar melhor.
